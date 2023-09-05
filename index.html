@@ -1,0 +1,105 @@
+<!-- 
+1. Structure of HTML document
+2. Common HTML tags
+3. HTML attributes
+4. Hyperlinks
+5. Images
+6. Lists
+7. Forms
+
+ -->
+
+<!--  
+
+    CSS 
+
+    3  Use it in the HTML document 
+
+    1. inline (  attribute).
+    2. internal (  <style> tag).
+    3. external (  <link> tag).
+    
+   syntax 
+         
+    
+
+  -->
+
+<html>
+  <head>
+    <title>Simple website</title>
+    <style>
+      /* 
+        type css code here
+        */
+
+      /* h1 {
+        color: aqua;
+        font-size: xx-large;
+      } */
+
+      #h1 {
+        color: brown;
+        font-size: 30px;
+      }
+      .p {
+        color: saddlebrown;
+        font-size: 20px;
+      }
+
+      img {
+        width: 200px;
+        height: 400px;
+      }
+
+      /* 
+        ways to select html element to style it 
+
+        1. tagname
+        2. id 
+        3. class
+
+
+    */
+    </style>
+    <link href="/main.css" />
+  </head>
+  <body>
+    <h1 id="h1">Hello world</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+    <p class="p">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa maiores
+      consectetur esse corporis, eligendi delectus nulla reiciendis nisi vero
+      totam!
+    </p>
+    <a href="https://www.google.com">Google</a>
+    <a href="/about.html">About</a>
+
+    <img src="/developr.jpeg" />
+    <!--  unordered list and ordered list  -->
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 1</li>
+      <li>item 2</li>
+    </ul>
+    
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 1</li>
+      <li>item 2</li>
+    </ol>
+    <!-- form  -->
+
+    <form action="">
+      <input type="email" name="" placeholder="" />
+      <input type="password" placeholder="Enter password" />
+      <button>Login</button>
+    </form>
+  </body>
+</html>
